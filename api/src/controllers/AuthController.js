@@ -4,7 +4,7 @@ const jwt =require("jsonwebtoken");
 const authConfig = require("/home/ubuntu/git/config/auth.json");
 
 
-const UserModel = require("../models/User");
+const UserModel = require("/home/ubuntu/git/models/User");
 
 const  router = express.Router();
 
