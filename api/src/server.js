@@ -1,8 +1,8 @@
 const express = require('express');
 
-const AuthController = require("./controllers/AuthController");
-const admincontrole = require ('./controllers/admincontrollers'); 
-const Autenticador=require("./middlewares/Autenticador");
+const AuthController = require("/home/ubuntu/git/controllers/AuthController");
+const admincontrole = require ('/home/ubuntu/git/controllers/admincontrollers'); 
+const Autenticador=require("/home/ubuntu/git/middlewares/Autenticador");
 const port = process.env.PORT || 3000
 const app = express();
 
