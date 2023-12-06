@@ -1,4 +1,4 @@
-const mongoose = require("../database");
+const mongoose = require("/home/ubuntu/git/database");
 
 const bcryptjs= require("bcryptjs");
  
