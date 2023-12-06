@@ -1,7 +1,7 @@
 const express = require("express");
 const bcryptjs =require ("bcryptjs");
 const jwt =require("jsonwebtoken");
-const authConfig = require("../config/auth.json");
+const authConfig = require("/home/ubuntu/git/config/auth.json");
 
 
 const UserModel = require("../models/User");
