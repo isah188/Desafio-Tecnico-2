@@ -32,10 +32,7 @@ router.post("/register",async(req,res)=> {
     }
     const user=await UserModel.create(req.body);
    
-    user.senha= undefined;
-    user.ultimoLogin= undefined;
-    user.dataAtualizacao= undefined;
-    user.createdAt= undefined;
+   
    
     
     
